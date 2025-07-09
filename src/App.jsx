@@ -1,11 +1,14 @@
-import Counter from "./Counter";
+import { useState } from 'react'
+import './App.css'
+import Call from './CardCall'
+
 function App() {
   return (
-    <div className="App">
-      <h1>React + JSON Server CRUD</h1>
-      <Counter />
+    <div>
+
+      <Call />
     </div>
   );
 }
 
-export default App;
+export default App
