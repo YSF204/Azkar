@@ -30,7 +30,6 @@ function Call() {
     <div className="card-grid">
       {API.map((card, i) => (
         <Card
-          key={i}
           title={card.title}
           initialNumber={card.count}
           BgColor={card.backgroundColor}
