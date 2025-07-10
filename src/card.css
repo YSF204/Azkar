@@ -1,12 +1,31 @@
 .ResetCount {
-    padding: 20px;
-    transition: background 0.3s;
-    background: #131111;
-    border: none;
-    border-radius: 30%;
-    cursor: pointer;
+  padding: 20px;
+  transition: background 0.3s;
+  background: #131111;
+  border: none;
+  border-radius: 30%;
+  cursor: pointer;
 }
 
 .ResetCount:hover {
-    background: #636262;
+  background: #636262;
+}
+
+.cardContainer {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 230px;
+  height: 330px;
+  border-radius: 27px;
+  padding: 20px;
+  color: black;
+  cursor: pointer;
+}
+
+.cardContainer:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
